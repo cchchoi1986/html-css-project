@@ -1,0 +1,52 @@
+body {
+  background: white;
+}
+
+nav {
+  text-indent: 150px;
+  height: 100px;
+  background: black;
+}
+
+nav a {
+  color: white;
+  font: Arial;
+  margin: 10px 20px 20px 20px;
+  padding: 0;
+  float: inherit;
+  line-height: 100px;
+
+}
+
+figure {
+  display: inline-block;
+  margin: 0 ;
+  padding: 0;
+}
+
+section {
+  margin: 10px 100px 50px 125px;
+  border: 2px solid #ffffff;
+  background: white;
+}
+
+div {
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  width: 700px;
+  display: inline-block;
+}
+
+.main {
+  float: inherit;
+}
+
+#sunkpar {
+  box-shadow: 2px 2px grey;
+  border: 2px solid #ff0000;
+  background: #EEEEEE;
+}
