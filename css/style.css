@@ -2,20 +2,24 @@ body {
   background: white;
 }
 
+section {
+  margin: 0 100px 0 100px;
+}
+/*nav style*/
+
 nav {
-  text-indent: 150px;
-  height: 100px;
+  text-indent: 100px;
+  height: 80px;
   background: black;
 }
 
 nav a {
-  color: white;
-  font: Arial;
-  margin: 10px 20px 20px 20px;
+  color: #EEEEEE;
+  font-family: Arial;
+  text-decoration: none;
+  margin: 0 40px 0 0;
   padding: 0;
-  float: inherit;
-  line-height: 100px;
-
+  line-height: 80px;]
 }
 
 figure {
@@ -24,29 +28,112 @@ figure {
   padding: 0;
 }
 
-section {
-  margin: 10px 100px 50px 125px;
-  border: 2px solid #ffffff;
-  background: white;
+/*heading icon style*/
+
+.pullright {
+  float:right;
+  margin: 5px;
 }
 
-div {
-  background: white;
-  margin: 0;
-  padding: 0;
+.pullright:hover {
+  background-image: url("images/rss.png");
 }
 
-p {
-  width: 700px;
-  display: inline-block;
+#minis {
+  margin: 10px 0 10px 0;
+  padding: 10px 0 10px 0;
 }
 
 .main {
-  float: inherit;
+  display:block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
-#sunkpar {
-  box-shadow: 2px 2px grey;
-  border: 2px solid #ff0000;
+/*sunk paragraph section style*/
+
+#sunk {
+  box-shadow: -1px -1px grey;
   background: #EEEEEE;
+  display: inline-block;
+  width: 100%;
 }
+
+#sunkpar2 {
+  font-size: 13px;
+  font-family: Arial;
+  width: 65%;
+  height: 20px;
+  display: inline-block;
+  margin: 20px 0 20px 15px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+  float:left;
+}
+
+#button {
+  float: right;
+  display: inline-block;
+  margin: 15px 15px 15px ;
+}
+
+/*homebox section*/
+
+.span3 {
+  display: inline-block;
+  width: 30%;
+  float: left;
+  margin: 0 12px 0 12px;
+}
+
+
+h2 {
+  margin: 0;
+  padding: 20px 0 5px 0;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.third {
+  border: 5px solid #DDDDDD;
+  padding: 0.5px;
+  margin: 0px;
+  display: block;
+  width:100%;
+  font-family: Arial;
+}
+
+.smallpar {
+  width: 100%;
+  margin: 2px;
+  padding: 2px;
+  font-size: 9px;
+  font-family: Arial;
+}
+
+.readmore {
+  font-size: 15px;
+  text-decoration: none;
+  color: blue;
+}
+
+/*footer code*/
+
+footer {
+  background: black;
+  display: block;
+  height: 200px;
+  float:bottom ;
+}
+
+.foot {
+  display: block;
+  height: 100px;
+}
+
+h3 {
+  display: block;
+}
+
