@@ -1,23 +1,35 @@
 body {
-  background: white;
+  height: 100%;
+  width: 100%;
+  background:url("../images/bg_body.jpg") repeat;
+  margin: 0;
+  padding: 0;
+}
+
+#bod {
+  height: 100%;
+  width: 100%;
+  background: url("../images/bg_wrapper.png") repeat-x;
+  margin: 0;
+  padding: 0;
 }
 
 section {
-  margin: 0 100px 0 100px;
+  margin: 0 10% 0 10%;
+  height: 100%;
 }
 /*nav style*/
 
 nav {
-  text-indent: 100px;
+  text-indent: 10%;
   height: 80px;
-  background: black;
 }
 
 nav a {
   color: #EEEEEE;
   font-family: Arial;
   text-decoration: none;
-  margin: 0 40px 0 0;
+  margin: 0 5% 0 0;
   padding: 0;
   line-height: 80px;]
 }
@@ -28,21 +40,65 @@ figure {
   padding: 0;
 }
 
+div {
+  display:block;
+}
 /*heading icon style*/
 
-.pullright {
+#bhlogo {
+  display: inline-block;
+  background: url("../images/logo.png") no-repeat;
+  width: 60%;
+  height: 50px;
+}
+
+.SocNav {
+  background: url("../images/socialNav.png") no-repeat;
+  display: inline-block;
+  height: 50px;
+  width: 60px;
+  background-position: 10px 10px;
   float:right;
-  margin: 5px;
 }
 
-.pullright:hover {
-  background-image: url("images/rss.png");
+#rss {
+  background-position: -175px -66px;
 }
 
+#rss:hover {
+  background-position: -175px -6px;
+}
+
+#fb {
+  background-position: -119px -66px;
+}
+
+#fb:hover {
+  background-position: -119px -6px;
+}
+
+#twit {
+  background-position: -62px -66px;
+}
+
+#twit:hover {
+  background-position: -62px -6px;
+}
+
+#lin {
+  background-position: -3px -66px;
+}
+
+#lin:hover {
+  background-position: -3px -6px;
+}
 #minis {
   margin: 10px 0 10px 0;
   padding: 10px 0 10px 0;
+  height: 60px;
 }
+
+/*main image styles*/
 
 .main {
   display:block;
@@ -54,52 +110,58 @@ figure {
 /*sunk paragraph section style*/
 
 #sunk {
-  box-shadow: -1px -1px grey;
-  background: #EEEEEE;
+  border-top: 3px solid #CCC;
+  border-left: 3px solid #CCC;
+  border-bottom: 3px solid #EEEEEE;
+  border-right: 3px solid #EEEEEE;
+  background: url("../images/bg_blurb.jpg") repeat-x;
   display: inline-block;
+  height: 20%;
   width: 100%;
 }
 
 #sunkpar2 {
-  font-size: 13px;
+  font-size: 15px;
   font-family: Arial;
   width: 65%;
-  height: 20px;
-  display: inline-block;
-  margin: 20px 0 20px 15px;
-  position: relative;
-  top: 5px;
-  left: 10px;
+  height: 25px;
+  margin: 2% 0% 2% 2%;
+  padding: 3% 0% 3% 2%;
   float:left;
 }
 
 #button {
   float: right;
-  display: inline-block;
-  margin: 15px 15px 15px ;
+  width: 23%;
+  height:8%;
+  margin: 4% 3% 4% 0%;
 }
 
 /*homebox section*/
+.homeboxes {
+  height: 100%;
+  margin: 2% 0 30% 0;
+  background: pink;
+}
 
 .span3 {
   display: inline-block;
-  width: 30%;
+  width: 30.3%;
   float: left;
-  margin: 0 12px 0 12px;
+  margin: 2% 3% 2% 0;
 }
-
 
 h2 {
   margin: 0;
-  padding: 20px 0 5px 0;
+  padding: 0;
   font-family: Arial;
   font-size: 20px;
 }
 
 .third {
   border: 5px solid #DDDDDD;
-  padding: 0.5px;
-  margin: 0px;
+  padding: 0.5%;
+  margin: 0.5%;
   display: block;
   width:100%;
   font-family: Arial;
@@ -107,8 +169,8 @@ h2 {
 
 .smallpar {
   width: 100%;
-  margin: 2px;
-  padding: 2px;
+  margin: 0;
+  padding: 1% 0 2% 0 ;;
   font-size: 9px;
   font-family: Arial;
 }
@@ -122,18 +184,72 @@ h2 {
 /*footer code*/
 
 footer {
+  height: 400%;
+  width: 100%;
+  float: left;
   background: black;
-  display: block;
-  height: 200px;
-  float:bottom ;
+  color: #888;
+  font-family: Arial;
 }
 
-.foot {
-  display: block;
-  height: 100px;
+#blogroll {
+  display: inline-block;
+  width: 23.3%;
+  float: left;
+  margin: 3% 0 2% 0;
+}
+
+#textwidget {
+  display: inline-block;
+  width: 39.3%;
+  float: left;
+  margin: 3% 3% 2% 0;
+}
+
+#metawidget {
+  display: inline-block;
+  width: 31.3%;
+  float: left;
+  margin: 3% 3% 2% 0;
 }
 
 h3 {
-  display: block;
+  font-family: Arial;
+  color: #FDFDFD;
+  font-size: 25px;
+  vertical-align: top;
 }
 
+.links {
+  font-size: 18px;
+  border-top: 2px solid #AAAAAA;
+  list-style-type: none;
+  padding: 3px 0 3px 0;
+  margin: 3px 0 3px 0;
+  width: 60%;
+}
+
+footer p {
+  height: 100px;
+  border-top: 2px solid #888;
+  font-size: 15px;
+}
+
+#copyright {
+  float:bottom;
+  margin:50px 0 0 0;
+  list-style-type: none;
+  font-size: 15px;
+}
+
+#disclaimer {
+  float:bottom;
+  margin:110px 0 0 0;
+  list-style-type: none;
+  font-size: 15px;
+}
+
+#gf {
+  color: #00FF00;
+  text-decoration: none;
+}
